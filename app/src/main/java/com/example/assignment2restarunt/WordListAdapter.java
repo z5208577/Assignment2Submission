@@ -31,7 +31,7 @@ public class WordListAdapter extends
 
     private RecyclerViewClickListener mListener;
     private LayoutInflater mInflater;
-    //Do the filtering here
+    //Do the filtering of cuisines here
     public WordListAdapter(Context context,
                            List<Restaurant> wordList, String filters) {
         mInflater = LayoutInflater.from(context);

@@ -15,7 +15,7 @@ import java.util.List;
 /*
 This is assignment 2 Submission: Top 10 Restaurants. Key functionalities include;
     -Displaying the name, cuisine, location and rating of 10 restauratnts (Required)
-    -Phone Number, Directions/Location using google maps,Opening hours
+    -Phone Number, Directions/Location using google maps,Opening hours, filtering of list
 
  */
 

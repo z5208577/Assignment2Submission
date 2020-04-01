@@ -9,7 +9,8 @@ import android.content.Intent;
 import android.os.Bundle;
 
 public class RestaurantDetail extends AppCompatActivity {
-// similar to the week 5 submission
+// similar to the week 5 submission however differs in that the
+// the tablet boolean is tested in the WordListAdapter instead
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

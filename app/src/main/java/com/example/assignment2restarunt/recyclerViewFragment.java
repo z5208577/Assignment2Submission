@@ -16,7 +16,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
+// This class is used to generate the recycler view found on the splash page. The code is similar to the tutorial work.
 public class recyclerViewFragment extends Fragment {
     public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
     private static final String TAG =  "MainActivity";

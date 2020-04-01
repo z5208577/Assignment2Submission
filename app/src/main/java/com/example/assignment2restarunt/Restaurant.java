@@ -3,7 +3,7 @@ package com.example.assignment2restarunt;
 import android.content.Context;
 
 import java.util.ArrayList;
-
+// mirrors the Coin class (before week 7) created in tutorials)
 public class Restaurant {
     private String name;
     private String cuisine;
@@ -26,7 +26,7 @@ public class Restaurant {
         this.weekdayHours = weekdayHours;
         this.weekendHours = weekendHours;
         this.telephone = telephone;
-        //no database to set images so need to used a swtich statment and the res folder
+        //no database to set images so need to used a switch statement and the res folder
         switch (name){
             case "Lidcombe McDonald's":
                 this.imageResource = R.drawable.maccas;
@@ -69,17 +69,6 @@ public class Restaurant {
                 setImageResource(R.drawable.thai);
         }
     }
-
-    public static Restaurant searchCoin(String search){
-        ArrayList<Restaurant> coins = getRestaurants();
-        for(Restaurant coin : coins){
-            if(coin.getName().equals(search)) {
-                return coin;
-            }
-        }
-        return null;
-    }
-
     public String getName() {
         return name;
     }

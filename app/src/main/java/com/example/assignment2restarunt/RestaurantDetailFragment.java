@@ -46,7 +46,7 @@ public class RestaurantDetailFragment extends Fragment {
 
         NumberFormat formatter = NumberFormat.getCurrencyInstance();
         getActivity().setTitle(mRestaurant.getName());
-
+        //populates the horizontal scrollView with images
         LinearLayout layout = (LinearLayout) view.findViewById(R.id.linear);
         for (int i = 0; i < 3; i++) {
             ImageView imageView = new ImageView(getContext());
